@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rent 🚗</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header class="main_header sec--padding">
+        <div class="brand--">
+            <small> /🚘\ </small>
+            <h2>
+                Rent A Car
+            </h2>
+        </div>
+
+
+        <nav class="header__nav">
+            <ul class="items">
+                <li class="item">
+                    <a href="./dashboard//dashboard.html">
+                        Offers
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="./dashboard//dashboard.html">
+                        Cars
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="./dashboard//dashboard.html">
+                        Locations
+                    </a>
+                </li>
+                
+                <li class="item">
+                    <a href="./dashboard//dashboard.html">
+                        Terms
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="btn__wrapper">
+            <button class="menu-btn" aria-label="Open navigation">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero_section sec--padding">
+            <div class="hero_image">
+                <article class="hero__contents">
+                    <h3>online Booking</h3>
+                    <form class="hero--form">
+
+                        <div class="pickup_location">
+                            <label for="location">Pick Up Loaction</label>
+                            <div>
+                                <span>📍</span> <input id="location" placeholder="(Port Harcourt Airport)" type="text">
+                            </div>
+                        </div>
+
+                        <div class="differnt__returns">
+                            <label for="return">Differnt Return Loaction? </label>
+                            <input id="return" type="text">
+                        </div>
+
+                        <div class="From_container">
+                            <div class="From_items">
+                                <label for="from_from">From</label>
+                                <div>
+                                    <span>📅</span>
+                                    <input id="from_from" placeholder="Select date" style="width:100px;" type="text">
+                                </div>
+                            </div>
+                            <div class="From_items">
+                                <label for="from_time">Time</label>
+                                <div>
+                                    <span>⌚</span>
+                                    <input id="from_time" placeholder="Hour" style="width:50px;" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="From_container">
+                            <div class="From_items">
+                                <label for="from_from">To</label>
+                                <div>
+                                    <span>📅</span>
+                                    <input id="from_from" placeholder="Select date" style="width:100px;" type="text">
+                                </div>
+                            </div>
+                            <div class="From_items">
+                                <label for="from_time">Time</label>
+                                <div>
+                                    <span>⌚</span>
+                                    <input id="from_time" placeholder="Hour" style="width:50px;" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button class="btn__">
+                            Search Cars
+                        </button>
+
+                    </form>
+                </article>
+            </div>
+        </section>
+
+        <section class="todays__offers sec--padding">
+            <article class="todays--offer_container">
+                <div class="todays--offer_contents">
+                    <h1>Today's Offers</h1>
+
+                    <p>Get up to <strong>30% OFF</strong> with our car rental deals in selected locations.</p>
+
+                    <article class="todays--offer_items">
+                        <div class="todays--offer_item__number">
+                            <h2>01</h2>
+                            <hr>
+                            <h2>04</h2>
+                        </div>
+
+                        <div class="todays--offer_item__arrow">
+                            <button>&lt;</button>
+                            <button>&gt;</button>
+                        </div>
+                    </article>
+                </div>
+
+
+            </article>
+
+
+            <article class="todays--offer__image--container">
+                <ul class="image__items">
+                    <li class="image__item">
+                        <img src="./Image/home/Corfu_greece.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Corfu</h2>
+                        <div class="number"> <span>-30%</span></div>
+                    </li>
+                    <li class="image__item">
+                        <img src="./Image/home/Dubai_UAE.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Dubai</h2>
+                        <div class="number"> <span>-20%</span></div>
+                    </li>
+                    <li class="image__item">
+                        <img src="./Image/home/Malaga_spain.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Malaga</h2>
+                        <div class="number"> <span>-30%</span></div>
+                    </li>
+                    <li class="image__item">
+                        <img src="./Image/home/Prague_Ccech.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Prague</h2>
+                        <div class="number"> <span>-30%</span></div>
+                    </li>
+                    <li class="image__item">
+                        <img src="./Image/home/Rome_italy.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Rome</h2>
+                        <div class="number"> <span>-29%</span></div>
+                    </li>
+                    <li class="image__item">
+                        <img src="./Image/home/Santorini_Greece.png" alt="">
+
+                        <div class="image__bd"></div>
+                        <h2>Santorini</h2>
+                        <div class="number"> <span>-10%</span></div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
